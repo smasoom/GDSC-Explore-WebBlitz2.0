@@ -1,0 +1,702 @@
+
+body{
+  font-family: 'Poppins', sans-serif;
+
+}
+header{
+width: 100%;
+height: 10px;
+display: flex;
+justify-content:space-around ;
+align-items: center;
+padding: 30px 10px;
+background-color: rgb(255, 255, 255);
+box-shadow: 0 5px 5px -3px rgb(0 0 0 / 40%);
+position: sticky;
+top: 0%;
+
+
+
+
+}
+.logo{
+  flex-direction: row;
+  font-size: 20px;
+  font-weight: 700;
+font-family: 'Poppins', sans-serif;
+  letter-spacing: .5px;
+  margin-top: 8px;
+  margin-bottom: 47px;
+}
+
+ .logo .gif{
+height: 80px;
+ width: 80px; 
+ cursor: pointer;
+ letter-spacing: .9px;
+ 
+}
+nav li{
+
+  display: inline-block;
+  list-style: none;
+  padding: 0px 20px;
+
+}
+a{
+text-decoration: none;
+font-size: 16px;
+font-weight: 700;
+letter-spacing: 0.9px;
+color: black;
+cursor: pointer;
+}
+
+.content{
+  margin-top: 40px;
+  margin-bottom: 0px;
+margin-left: 73px ;
+
+  font-size: 2rem;
+  font-weight: 490;
+}
+.content .second{
+opacity: 1;
+margin-top: -34px;
+color: rgb(55 63 65);
+font-weight: 450;
+font-size: 1.875rem;
+
+}
+
+.content .thirdline{
+opacity: 1;
+
+color: rgb(79 70 229);
+font-weight: 700;
+font-size: 1.5rem;
+
+}
+
+
+.outer{
+  display: flex;
+  margin-left: 20px;
+}
+  .p4{
+    opacity: 80%;
+    color: rgb(115 123 125);
+    font-weight: 700;
+    font-size: 1.2rem;
+
+}
+.gifimage{
+  margin-top: 20px;
+}
+
+/* .button{
+  display: flex;
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  
+} */
+
+
+.outer .buttonone{
+width: 154px;
+height: 50px;
+font-size: 17px;
+background-color: #1B4996;
+color: azure;
+border : 1px solid rgb(255, 255, 255);
+
+border-radius: 8px;
+
+
+}
+.outer .buttontwo{
+width: 154px;
+height: 50px;
+font-size: 17px;
+font-weight: 400;
+
+color: #1B4996;
+border : 3px solid #1B4996;
+
+border-radius: 8px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* YAHA SE EVENT HI */
+.container{
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   margin-top: 50px;
+}
+
+.card:hover{
+  
+    transition: 1s ease;
+    
+    
+    
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 1s ease
+}
+
+
+
+
+
+/* .card{
+  border-color: hsla(192,4%,47%,.3);
+  border-radius: 10px;
+flex: 1 1 21rem;
+background-color: rgb(229, 229, 238);
+box-shadow: black;
+width: 500px;
+height: 600px;
+margin: 4px;
+padding: 1rem;
+} */
+.card{
+flex: 1 1 21rem;
+margin: 10px 20px;
+background:#f2f7ff;
+box-shadow: 15px rgb(0, 0, 0 ,0.6);
+border-radius: 7px;
+padding: 16px;
+}
+
+.events{
+margin-left: 30px;
+  font-size: 3.5rem;
+  font-weight: 500;
+
+}
+
+.cardimage{
+  border-radius: 7px;
+    background-color: black;
+    height: 400px;
+    margin-bottom: 6px;
+    margin: 6px;
+  
+}
+.image1{
+background-image: url('Kickstart.png');
+background-size: cover;
+}
+.image2{
+background-image: url('WeAreHosting.png');
+background-size: cover;
+}
+.image3{
+background-image: url('WeAreHosting2.png');
+background-size: cover;
+}
+
+.iconandopen{
+
+  display: flex;
+}
+.open{
+color: blue;
+font-size: large;
+letter-spacing: 1.5px;
+}
+.iconarrow{
+
+margin-top: 20px;
+
+}
+.iconandopen2{
+
+  display: flex;
+}
+.open2{
+color: blue;
+font-size: large;
+letter-spacing: 1.5px;
+
+}
+.iconarrow2{
+
+margin-top: 20px;
+
+}
+.iconandopen3{
+
+  display: flex;
+}
+.open3{
+color: blue;
+font-size:large;
+letter-spacing: 1.5px;
+}
+.iconarrow3{
+
+margin-top: 20px;
+
+}
+
+
+
+
+ /* YAHA TAK EVENT PART THA */
+ /* .classcontainer{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  padding: 50px;
+ }
+ .card-1{
+width: 250px;
+height: auto;
+position: relative;
+background: #1B4996;
+display: flex;
+flex-direction: column;
+justify-items: center;
+align-items: center;
+border-radius: 4px;
+padding: 20px;
+transition: all 0.3s ease-in;
+ }
+ .card-1-img{
+   color: aqua;
+   height: 150px;
+   margin-bottom: 15px;
+
+ } */
+
+.para{
+  margin-top: 20px;
+  margin-left: 590px;
+  margin-bottom: 0;
+  font-size: 52px;
+  font-weight: bold;
+  color: rgb(55 63 65);
+}
+
+.teamz {
+  display: flex;
+}
+
+.teamSectionz {
+  padding: 50px 50px;
+  background-color: rgb(243, 243, 243);
+}
+
+.cards img {
+  margin: 30px 30px;
+  padding: 20px 20px;
+  height: 100px;
+  width: 200px;
+}
+
+
+.classcontainer{
+  display: flex;
+justify-content: center;
+background-color: #ffffff;
+
+}
+p .heading{
+  font-size: 600px;
+  align-items: center;
+}
+.card-1{
+
+  background-color: rgb(255, 255, 255);
+  width: 220px;
+  height: 300px;
+  margin:15px;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.card-1-img{
+
+  background-color: blue;
+  height: 70px;
+  width: 70px;
+  margin-bottom: 20px;
+  border: 30px; 
+  background-size: cover;
+  border-radius: 50%;
+margin: 40px 69px;
+
+  
+}
+.namespeaker{
+
+  font-weight: 600;
+  font-size: medium;
+  margin-left: 40px;
+  
+}
+.p4{
+  margin-top: 0;
+margin-left: 0px;
+
+font-size: small;
+margin-left: 20px;
+color: black;
+
+}
+.p2{
+  margin-top: ;
+margin-left: 20px;
+font-size: small;
+
+}
+.p3{
+margin-left: 60px;
+font-size: small;
+
+}
+
+.speaker1{
+  background-image: url('1.jpg');
+
+}
+.speaker2{
+  background-image: url('2.jpg');
+}
+.speaker3{
+  background-image: url('3.jpg');
+}
+
+
+.que{
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: #f2f7ff;
+
+}
+.sponsors{
+font-size: 48px;
+font-weight: 600;
+  color: #5c5e5f;
+  margin-bottom: 2.25rem;
+  margin-top: 10px;
+}
+.my{
+font-size: 28px;
+font-weight: 580;
+  color: #373f41;
+  margin-bottom: 2.25rem;
+  margin-top: 10px;
+}
+
+.faqq{
+  margin-top: 40px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+
+}
+
+.faq{
+font-size: 48px;
+font-weight: 600;
+
+
+}
+.line1{
+border: 3px;
+width: 80%;
+height: 49px;
+background-color: #f2f7ff;
+
+border-radius: 6px;
+padding-left: 20px;
+padding-top: 20px;
+margin-bottom: 10px;
+}
+
+
+
+.line2{
+border: 3px;
+width: 80%;
+height: 49px;
+background-color:#f2f7ff;
+
+border-radius: 6px;
+padding-left: 20px;
+padding-top: 20px;
+
+
+}
+
+.bichwala{
+  height: 600px;
+  display: flex;
+justify-content: center;
+background-color: #f2f7ff;
+margin-top: 20px;
+
+
+}
+.card-a{
+  background-color: rgb(255, 255, 255);
+  width: 140px;
+  height: 200px;
+  margin:15px;
+
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 40px;
+}
+.bichphoto{
+
+  height: 70px;
+  width: 70px;
+ 
+  background-size: cover;
+
+ 
+margin: 22px 35px;
+
+}
+.d{
+  font-size: 9px;
+
+  justify-content: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 20px;
+ 
+}
+.hello{
+  margin-left: 40px;
+  font-size: 9px;
+
+  justify-content: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 20px;
+ 
+}
+/* .typing{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.main .option{
+height: 90px;
+line-height: 90px;
+overflow: hidden;
+}
+.option li{
+list-style: none;
+color: rgb(0, 183, 255);
+font-size: 60px;
+font-weight: 500;
+position: relative;
+animation: slide 12s steps(7) infinite;
+}
+@keyframes slide{
+100% {
+
+  top: -360px;
+}
+}
+
+.option li span{
+position: relative;
+margin: 5px 0;
+line-height:90px ;
+}
+.option li span::after{
+  content: "";
+position: relative;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: #7ebac9;
+border-left: 4px solid #face30;
+animation: typing 3s step(10) infinite;
+}
+
+@keyframes typing {
+  40% ,60%{
+left: calc(100% + 30px);
+
+}
+100%{
+left: 0;
+
+} */
+
+.last{
+
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+ 
+  background-color: #ffffff;
+
+}
+.donosathmai{
+display: flex;
+
+justify-content: space-around;
+
+}
+.donosathmai .giflast{
+  
+  height: -10px;
+  width: -10px;
+  padding:0%;
+
+}
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 3px solid rgb(40, 108, 255); /* Gray border */
+  border-radius: 8px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #228dff;
+  color: white;
+  padding: 12px 41px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #2061ee;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 20px;
+}
+.naam{
+
+  display: flex;
+ justify-content: center;
+ 
+}
+.three{
+  margin-top: 30px;
+display: flex;
+flex-direction: column;
+margin-left:500px;
+font-family: sans-serif;
+font-weight: 700;
+font-size: 30px;
+color: #228dff;
+
+}
+.contactus{
+  font-size: 40px;
+margin-top: 15px;
+  color: #373f41;
+  margin-left: 150px;
+}
+.last{
+background-color: #ffffff;
+border-radius: 20px;
+
+}
+.text-box{
+
+  font-size: 80px;
+  font-weight: 900;
+  text-align: center;
+  width: 100%;
+  }
+  .fixed-text{
+  
+    display: inline-block;
+    vertical-align: top;
+  }
+  .animated-text{
+  
+    display: inline-block;
+    height: 113px;
+    overflow: hidden;
+  }
+  .animated-text span{
+  
+    position: relative;
+    color: rgb(0, 183, 255);
+    display: block;
+    text-align: left;
+  }
+  .animated-text span:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    border-left: 2px solid #000000; 
+    right: -2px;;
+    background-color: rgb(255, 255, 255);
+    animation: 3s  textType;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps(10);
+    animation-fill-mode: backwards;
+  
+  }
+  @keyframes textType{
+  0%{
+   left: 0;
+  }
+  50%{
+   left: 100%;
+  }
+  100%{
+   left: 0;
+  }
+  
+.days{
+
+  
+}
